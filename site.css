@@ -1,0 +1,98 @@
+body{
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: ghostwhite;
+
+}
+
+.container3{
+background-color: aqua;
+}
+.signIn{
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,.35);
+    padding: 2em 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container.row{
+    margin-left: -.75em;
+    margin-right: -.75em;
+}
+h1{
+    font-size: 3em;
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+h4{
+    
+    font-weight: 200;
+    text-align: center;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.profile-image {
+    width: 100%;
+    padding-bottom: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-sizing: content-box;
+    background-image: url('../img/adele-hello.jpg');
+}
+
+h2{
+    font-size: 2em;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+a{
+    color: lightcoral;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: ghostwhite;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+#modalIMG{
+   display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.btn{
+    background-color: ghostwhite;
+    color: orangered;
+}
